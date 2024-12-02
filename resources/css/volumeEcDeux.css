@@ -1,0 +1,17 @@
+.sortable:hover {
+    cursor: pointer;
+}
+.nav-link:hover {
+    color: lightgrey !important; /* Change the text color on hover */
+    cursor: pointer;
+}
+
+th.sortable {
+    cursor: pointer;
+    background-color: #f8f9fa; /* Couleur de fond par défaut */
+    transition: background-color 0.3s;
+}
+
+th.sortable:hover {
+    background-color: #e2e6ea; /* Couleur de fond au survol */
+}
